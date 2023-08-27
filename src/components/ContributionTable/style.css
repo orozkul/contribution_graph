@@ -1,0 +1,42 @@
+.table {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 5% 95%;
+}
+
+.months {
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.weekDays {
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.weekDay {
+    height: 15px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.chart {
+    width: 100%;
+    height: 117px;
+    display: grid;
+    grid-template-columns: repeat(51, 15px);
+    grid-gap: 2px;
+}
